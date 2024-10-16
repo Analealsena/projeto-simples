@@ -34,12 +34,19 @@ Para adicionar novos ativos, utilize a funcionalidade de cadastro no formulário
 #Estrutura do Projeto#
 
 /projeto-simples
+    
     ├── app.py                 # Arquivo principal do servidor Flask
+    
     ├── setup_db.py            # Script para criar o banco de dados SQLite
+    
     ├── reset_db.py            # Script para resetar o banco de dados (se necessário)
+    
     ├── inventario_simples.db   # Arquivo do banco de dados SQLite (criado após execução)
+    
     ├── /templates/            # Pasta para os arquivos HTML
     │     └── index.html        # Página principal do sistema
+   
     ├── /static/               # Pasta para arquivos estáticos (CSS)
     │     └── style.css         # Estilos personalizados da interface
+    
     └── README.md              # Este arquivo de documentação
